@@ -23,7 +23,7 @@ email: mail@cyberhub.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Cloud and Cybersecurity Information Hub . 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://purelog.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vnann.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #repository: brennanbrown/purelog
 twitter: 
 github: 
@@ -37,7 +37,7 @@ disqus: purelog-jekyll
 author: Naveen Nannapaneni
 author_bio: >-
   Hey there! 😄 My name is Naveen Nannapaneni, here you will find article 
-  about clone and cybersecurity.
+  about cloud and cybersecurity.
 author_pic: 
 paginate: 4
 paginate_path: "/:num/"

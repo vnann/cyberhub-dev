@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{{ content }}
+
+{% assign usdpapers = site.usdpapers %}
+
+<div class="notes">
+    <h2 class="content-subhead">University of SanDiago Masters Portfolio</h2>
+
+    {%- if usdpapers.size > 0 -%}
+        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+
+        {%- for usd in usdpapers -%}
+            <section class="post">
+                <header class="note-header">
+                    <h2 class="post-title">
+                        <a href="{{ usd.url | relative_url }}">
+                            {{ usd.title | escape }}
+                        </a>
+                    </h2>
+
+                    <p class="post-meta">
+                        Tagged:
+                        <span>
+                            {% for tag in usd.tags %}
+                                <a href="/tags/#{{ tag }}">#{{ tag }}</a>
+                            {% endfor %}
+                        </span>
+                    </p>
+                </header>
+
+                <div class="post-description">
+                    <p>
+                        <em>{{ usd.content | strip_html | escape | truncate: 300}}</em>
+                    </p>
+                </div>
+            </section>
+        {%- endfor -%}
+    </div>
+
+
+    <br/>
+
+{%- endif -%}

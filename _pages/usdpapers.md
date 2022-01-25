@@ -1,0 +1,4 @@
+---
+layout: usdpapers
+permalink: /usdpapers
+---

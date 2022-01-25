@@ -1,0 +1,4 @@
+---
+layout: clouds
+permalink: /clouds
+---

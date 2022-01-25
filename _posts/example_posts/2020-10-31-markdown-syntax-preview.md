@@ -7,7 +7,7 @@ tags:
   - Markdown
 author: Naveen Nannapaneni
 avatar: assets/img/common/naveen.png
-category: Example Posts
+category: Example
 ---
 
 

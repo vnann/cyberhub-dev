@@ -7,7 +7,7 @@ layout: post
 tags:
   - Kubernetes
   - Container
-category: Containerization
+category: k8s
 ---
 
 ## Table of Content <!-- omit in toc -->

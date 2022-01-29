@@ -4,6 +4,7 @@ date: 2020-10-27
 author: Naveen Nannapaneni
 toc: true
 layout: post
+avatar: assets/img/favicon.ico
 tags:
   - Kubernetes
   - Container

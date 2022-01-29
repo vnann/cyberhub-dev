@@ -140,7 +140,7 @@ footer .pure-menu-link:hover {
 
 .brand-title {
   padding-top: 15px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .brand-title a {

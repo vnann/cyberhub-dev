@@ -6,7 +6,7 @@ tags:
   - Jekyll
   - Markdown
 author: Naveen Nannapaneni
-avatar: assets/img/common/naveen.png
+avatar: assets/img/favicon.ico
 category: Example
 ---
 

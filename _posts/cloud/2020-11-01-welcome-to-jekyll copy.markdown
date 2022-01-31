@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Welcome to Jekyll! -- usd"
+title: "Welcome to Jekyll! ---- USD"
 date: 2020-11-01
 tags:
   - Jekyll
   - Markdown
   - cloud
-  - usdpaper
 author: Naveen
 avatar: assets/img/favicon.ico
 category: usdpaper

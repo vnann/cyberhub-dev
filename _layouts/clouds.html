@@ -3,39 +3,43 @@ layout: default
 ---
 {{ content }}
 
-{% assign clouds = site.clouds %}
+{% assign posts = site.posts %}
 
 <div class="notes">
     <h2 class="content-subhead">Recent Cloud Entries</h2>
 
-    {%- if clouds.size > 0 -%}
+    {%- if posts.size > 0 -%}
         {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
 
-        {%- for cloud in clouds -%}
-            <section class="post">
-                <header class="note-header">
-                    <h2 class="post-title">
-                        <a href="{{ cloud.url | relative_url }}">
-                            {{ cloud.title | escape }}
-                        </a>
-                    </h2>
+        {%- for post in posts -%}
+            <!-- Here we are hardcoded the categories check for the categories we display on the sidebar.html-->
+            {% if post.categories contains "cloud" %}
+                <section class="post">
+                    <header class="note-header">
+                        <img width="48" height="48" alt="{{post.author}}'s Avatar'" class="post-avatar" src="{{site.url}}/{{post.avatar}}"/>
+                        <h2 class="post-title">
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h2>
 
-                    <p class="post-meta">
-                        Tagged:
-                        <span>
-                            {% for tag in cloud.tags %}
-                                <a href="/tags/#{{ tag }}">#{{ tag }}</a>
-                            {% endfor %}
-                        </span>
-                    </p>
-                </header>
+                        <p class="post-meta">
+                            Tagged:
+                            <span>
+                                {% for tag in post.tags %}
+                                    <a href="/tags/#{{ tag }}">#{{ tag }}</a>
+                                {% endfor %}
+                            </span>
+                        </p>
+                    </header>
 
-                <div class="post-description">
-                    <p>
-                        <em>{{ cloud.content | strip_html | escape | truncate: 300}}</em>
-                    </p>
-                </div>
-            </section>
+                    <div class="post-description">
+                        <p>
+                            <em>{{ post.content | strip_html | escape | truncate: 300}}</em>
+                        </p>
+                    </div>
+                </section>
+            {% endif %}
         {%- endfor -%}
     </div>
 

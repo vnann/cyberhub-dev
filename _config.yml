@@ -66,57 +66,58 @@ defaults:
       layout: "post"
       author: Naveen Nannapaneni
       avatar: assets/profile.png
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: post
-      content-type: notes
-  - scope:
-      path: ""
-      type: journals
-    values:
-      layout: journal-entry
-      content-type: journals
-  - scope:
-      path: ""
-      type: cybersec
-    values:
-      layout: cyber-entry
-      content-type: cybersec
-  - scope:
-      path: ""
-      type: clouds
-    values:
-      layout: post
-      content-type: clouds
-  - scope:
-      path: ""
-      type: usdpapers
-    values:
-      layout: post
-      content-type: usdpapers
+  # - scope:
+  #     path: ""
+  #     type: notes
+  #   values:
+  #     layout: post
+  #     content-type: notes
+  # - scope:
+  #     path: ""
+  #     type: "journals"
+  #   values:
+  #     layout: journal-entry
+  #     content-type: journals
+  # - scope:
+  #     path: ""
+  #     type: "cybersec"
+  #   values:
+  #     layout: "posts" #cyber-entry
+  #     content-type: cybersec
+  # - scope:
+  #     path: ""
+  #     type: "clouds"
+  #   values:
+  #     layout: post
+  #     content-type: clouds
+  # - scope:
+  #     path: ""
+  #     type: "usdpapers"
+  #   values:
+  #     layout: post
+  #     content-type: usdpapers
+      
 # Allows all pages to be put into `_pages` folder
 # for easier navigation and better SEO.
 collections:
   pages:
     output: true
     permalink: /:title
-  notes:
-    output: true
-    permalink: /notes/:title
-  journals:
-    output: true
-    permalink: /journals/:title
-  cybersec:
-    output: true
-    permalink: /cybersec/:title
-  clouds:
-    output: true
-    permalink: /clouds/:title
-  usdpapers:
-    output: true
-    permalink: /usdpapers/:title
+  # notes:
+  #   output: true
+  #   permalink: /notes/:title
+  # journals:
+  #   output: true
+  #   permalink: /journals/:title
+  # cybersec:
+  #   output: true
+  #   permalink: /cybersec/:title
+  # clouds:
+  #   output: true
+  #   permalink: /clouds/:title
+  # usdpapers:
+  #   output: true
+  #   permalink: /usdpapers/:title
 
 # Exclude from processing.
 exclude:

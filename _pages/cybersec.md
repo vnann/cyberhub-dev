@@ -1,3 +1,4 @@
 ---
 layout: cybersec
+permalink: /cybersec
 ---

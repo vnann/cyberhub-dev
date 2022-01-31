@@ -7,24 +7,10 @@ tags:
   - Markdown
 author: Naveen Nannapaneni
 avatar: assets/img/favicon.ico
-category: Example
+category: cloud
 ---
 
 
-```
-id: 221
-title: "Getting Unstuck for Creatives"
-date: 2020-10-30
-author: john doe
-layout: post
-tags:
-  - Creativity
-  - Inspiration
-  - Habits
-author: xxxx
-avatar: assets/img/xxx.png
-category: How-To
-```
 
 ## Philosophy:
 

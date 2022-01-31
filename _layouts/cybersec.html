@@ -3,32 +3,43 @@ layout: default
 ---
 {{ content }}
 
-{% assign cybersec = site.cybersec %}
+{% assign posts = site.posts %}
 
-<div class="cybersec">
-    <h2 class="content-subhead">Recent cyber entries</h2>
+<div class="notes">
+    <h2 class="content-subhead">Recent Cloud Entries</h2>
 
-    {%- if cybersec.size > 0 -%}
+    {%- if posts.size > 0 -%}
         {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
 
-        {%- for cyber in cybersec -%}
-            <section class="cyber">
-                <header class="cyber-header">
-                    <small>
+        {%- for post in posts -%}
+            <!-- Here we are hardcoded the categories check for the categories we display on the sidebar.html-->
+            {% if post.categories contains "cybersec" %}
+                <section class="post">
+                    <header class="note-header">
+                        <img width="48" height="48" alt="{{post.author}}'s Avatar'" class="post-avatar" src="{{site.url}}/{{post.avatar}}"/>
                         <h2 class="post-title">
-                            <a href="{{ cyber.url | relative_url }}">
-                                {{ cyber.title | escape }}
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
                             </a>
                         </h2>
-                    </small>
-                </header>
 
-                <div class="cyber-description">
-                    <p>
-                        <em>{{ cyber.content | escape | truncate: 300}}</em>
-                    </p>
-                </div>
-            </section>
+                        <p class="post-meta">
+                            Tagged:
+                            <span>
+                                {% for tag in post.tags %}
+                                    <a href="/tags/#{{ tag }}">#{{ tag }}</a>
+                                {% endfor %}
+                            </span>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            <em>{{ post.content | strip_html | escape | truncate: 300}}</em>
+                        </p>
+                    </div>
+                </section>
+            {% endif %}
         {%- endfor -%}
     </div>
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About CyberHub.dev
+title: About cyberhub.dev
 permalink: /about/
 ---
 

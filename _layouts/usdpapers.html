@@ -25,11 +25,11 @@ layout: default
 
                         <p class="post-meta">
                             Posted:
-                        {{ post.date | date: date_format }}
-                        |
-                        <br class="sm-display"/>
-                       <!-- By
-                        <a class="post-author" href="#">{{ post.author }}</a> -->
+                            {{ post.date | date: date_format }}
+                            |
+                            <br class="sm-display"/>
+                        <!-- By
+                            <a class="post-author" href="#">{{ post.author }}</a> -->
                             Tagged:
                             <span>
                                 {% for tag in post.tags %}

@@ -13,11 +13,11 @@ The security architecture artifacts are valuable tools for maintaining consisten
 
 ###  Security Service Management Architecture - Image place-holder
 
-The Sherwood Applied Business Security Architecture (SABSA®) model is a framework and methodology for developing business operational risk-based architectures. The SABSA® methodology guides aligning architecture with business value. The SABSA® model consists of six layers, Contextual (the Business View), Conceptual (the Architect View), Logical (the Designer’s View), Physical (the Builder’s View), Component (Tradesman’s View), and Operational (Facilities Manager’s View).
+The Sherwood Applied Business Security Architecture (SABSA®) model is a framework and methodology for developing business operational risk-based architectures. The SABSA® methodology guides aligning architecture with business value. The SABSA® model consists of six layers, _Contextual (the Business View), Conceptual (the Architect View), Logical (the Designer’s View), Physical (the Builder’s View), Component (Tradesman’s View), and Operational (Facilities Manager’s View)_.
 
 ###  Security Service Management Architecture - Image place-holder
 
-Each of these layers of the architecture model are supported by vertical analysis based on six key questions: What (Assets), Why (Motivation), How (Process), Who (People), Where (Location) and When (Time).
+Each of these layers of the architecture model are supported by vertical analysis based on six key questions: _What (Assets), Why (Motivation), How (Process), Who (People), Where (Location) and When (Time)_.
 
 ###  Security Service Management Architecture - Image place-holder
 
@@ -314,7 +314,7 @@ Each of these layers of the architecture model are supported by vertical analysi
 
 ## Reflection
 
-In the Security Architecture course, I learned how the SABSA® model provides a framework for developing risk-driven enterprise information security and information assurance architectures to help undertake complex security implementations. The model covers the whole lifecycle of operational capabilities and is made up of six layers that identifies each of the stakeholders and their role in the architecture. Each layer is dependent on the layer above for building a high-level architecture down to the implementation and operations.
+In the Security Architecture course, I learned how the **SABSA® **model provides a framework for developing risk-driven enterprise information security and information assurance architectures to help undertake complex security implementations. The model covers the whole lifecycle of operational capabilities and is made up of six layers that identifies each of the stakeholders and their role in the architecture. Each layer is dependent on the layer above for building a high-level architecture down to the implementation and operations.
 
 The model aligns the architecture with business value, in addition to addressing a critical need for greater integration between security and enterprise architectures within organizations. The SABSA model is an open standard, generic, and vendor-neutral, although it is copyright protected, it is an open-use methodology and not a commercial product. It is owned, governed, protected, and maintained by the SABSA Institute. It is designed for the development of security architectures and can be used by any industry or organization. It can be integrated with TOGAF, ITIL, and COBIT, as well as other governance, compliance, and audit frameworks.
 

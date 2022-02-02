@@ -14,7 +14,7 @@ A Software Development Life Cycle (SDLC) is a process used by organizations to b
   - MS Security Development Lifecycle (MS SDL). Microsoft proposed it in association with the phases of a classic SDLC (Microsoft, n.d.).
 
   - NIST 800-64: Provides security considerations within the SDLC (Mougoue, 2017).
-  
+
   - OWASP SAMM (Software Assurance Maturity Model) is the OWASP framework to help organizations assess, formulate, and implement, through the self-assessment model, a strategy for software security that can be integrated into existing SDLC (The SAMM Project team, 2020).
 
 I chose my requirements engineering assignment as an artifact to showcase my understanding of the software development life cycle. In this assignment, I have worked with five other students to develop the following documents.

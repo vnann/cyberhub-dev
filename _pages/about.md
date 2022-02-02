@@ -4,7 +4,7 @@ title: About cyberhub.dev
 permalink: /about/
 ---
 
-**CyberHub.dev** 
+**cyberhub.dev** 
 
 ### Features
 

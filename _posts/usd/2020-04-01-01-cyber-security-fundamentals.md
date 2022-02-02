@@ -56,6 +56,7 @@ The knowledge I gained through this fundamental course helped me understand diâ€
 ## References
 
 - Gonzalez, K. (2018, June 8). A step-by-step guide to vulnerability assessment. Retrieved from https://securityintelligence.com/a-step-by-step-guide-to- vulnerability-assessment/
+
 - Schneier, B. (2015, June 23). Why We Encypthttps://www.schneier.com/blog/archives/2015/06/why_we_encrypt.html
 Cyber Security Fundamentals related links
 

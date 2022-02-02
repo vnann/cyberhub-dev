@@ -92,9 +92,13 @@ It is the moral and ethical duty of every individual that is entrusted with conf
 ## References
 
 - Ahirwal, R.R., & Ahke, M. (2013). Elliptic Curve Di!e-Hellman Key Exchange Algorithm for Securing Hypertext information on Wide Area Network. Retrieved from http://citeseerx.ist.psu.edu/viewdoc/download? doi=10.1.1.299.9663&rep=rep1&type=pdf
+
 - Lee, J. (2019, June 14). What is ePHI? Examples, Compliance, Laws, and More. Retrieved from https://learn.g2.com/ephi
+
 - Olzak, T. (2012, June 11). Chapter 7: The role of cryptography in information security. Retrieved from https://resources.infosecinstitute.com/role-of-cryptography/#gref PAN-OS 8.0 IPSec Cipher Suites. Retrieved from https://docs.paloaltonetworks.com/compatibility-matrix/supported- cipher-suites/cipher- suites-supported-in-pan-os-8-0/cipher-suites- supported-in-pan-os-8-0-ipsec
+
 - Polk, T., McKay, K., & Chokhani, S. (2014, April). Guidelines for the Selection, Configuration, and Use of Transport Layer Security (TLS) Implementations. Retrieved from https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800- 52r1.pdf
+
 - Scholl, M., Stine, K., Hash, J., Bowen, P., Johnson, A., Smith, C., & Steinberg, D. (2008, 22 October). An Introduction Resource Guide for Implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule. Retrieved from https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800- 66r1.pdf
 Cryptography Related Links
 

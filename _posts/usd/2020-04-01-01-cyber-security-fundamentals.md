@@ -3,7 +3,6 @@ layout: post
 title: "Cyber Security Fundamentals"
 date: 2020-04-01
 tags:
-  - fundamentals
   - CSOL
 author: Naveen
 avatar: assets/img/favicon.ico
@@ -34,11 +33,11 @@ Here are some of the topics that covered in cyber security fundamentals:
     <th> Vulnerability Assessment </th>
     <th> Encryption</th>
 </tr> 
-<tr>
-    <td>
+<tr style="text-align:left; vertical-align=top">
+    <td style="text-align:left; vertical-align=top">
     In module 2, I learned how to perform a vulnerability assessment on my home network. It is one of the most important things we do as a cyber security professional. It allows us to understand the weaknesses of the network before an attacker can find the vulnerabilities to exploit them. In the vulnerability assessment exercise, I used Kali Linux and the OpenVAS (Open Vulnerability Assessment System) tool o scan the systems in the home lab. The tasks include three phases: network discovery, vulnerability assessment and a manual scan. Once the scan was completed, OpenVAS generated a detailed report to show the vulnerabilities that existed in each of the systems discovered on the network.
     </td>
-    <td>
+   <td style="text-align:left; vertical-align=top">
     In module 5, I had the opportunity to learn how to securely exchange emails between two parties using encryption. In this exercise, I generated a private and public asymmetric key pair with a 2048-bit key size using the service provided by the http://www.comodo.com Certificate Authority. The certificate was installed on my computer and secure emails with my peer were exchanged. I used Wireshark to monitor the communication exchange and was able to see the encrypted tra!c. I also identified the cipher suite, protocol and algorithm that was used.
     </td>
 </tr>

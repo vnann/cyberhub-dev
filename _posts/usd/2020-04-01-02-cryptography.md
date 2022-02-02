@@ -3,7 +3,6 @@ layout: post
 title: "Cryptography"
 date: 2020-04-01
 tags:
-  - cryptography
   - CSOL
 author: Naveen
 avatar: assets/img/favicon.ico
@@ -27,11 +26,11 @@ Cryptographic mechanisms enforce confidentiality policies in the presence of thr
     <th> External Users </th>
     <th> Internal Users </th>
 </tr> 
-<tr>
+<tr style="text-align:left; vertical-align=bottom">
     <td>
         This group consists of customers and providers who have access to ePHI data via an internet connection to the company’s web server. They will use a modern web browser to access ePHI data hosted on the web server using TLS v1.2 protocols. The web server supports TLS v1.2 protocol with Advanced Encryption Standard (AES) symmetric key encryption algorithm in CBC mode with a 128-bit key length, secure hash function HMAC-SHA256 and Elliptic Curve Di!e-Hellman Ephemeral algorithm (ECDHE) for key distribution. TLS 1.2 is the approved protocol to provide authentication, confidentiality, and data integrity by NIST SP 800-52r1 (Polk, McKay, & Chokhani, 2014, p. 18). ECDHE provides the basis for a range of authenticated protocols and is used to provide forward secrecy for web browsers using HTTPS. It provides bidirectional encryption of communication between a client and server, which protects against eavesdropping and tampering or forging the contents of the communication (Ahirwal & Ahke, 2013).
     </td>
-    <td>
+    <td >
         This group consists of remote workers who connect to the corporate network via IPSec VPN with AES encryption algorithm in CBC mode and a key length of 128-bits. Employees located on site will connect directly to the corporate LAN via a wired or wireless network. Authentication of users is done using domain credentials and the Kerberos protocol to access resources on the network.
     </td>
 </tr>
@@ -43,7 +42,7 @@ Cryptographic mechanisms enforce confidentiality policies in the presence of thr
     <th> Database and Storage Devices </th>
     <th> Servers </th>
 </tr> 
-<tr>
+<tr style="text-align:left; vertical-align=bottom">
     <td>
         The databases and storage devices containing ePHI data and corporate data are protected by utilizing full disk encryption at rest using an AES block cipher algorithm with a key length of 128-bits, in CBC block cipher mode with a secure hash function of SHA-256. The ePHI data is securely backed up and stored at the o”-site backup location to comply with HIPAA contingency plan §164.308(7) (Scholl et al., 2008, pp. F-2, F-3). The o”-site backup will also include corporate data based on company RPO and RTO requirements. Backup data is encrypted with the AES block cipher algorithm with a key length of 128-bits, CBC block cipher mode and secure hash function SHA-256.
     </td>
@@ -57,7 +56,7 @@ Cryptographic mechanisms enforce confidentiality policies in the presence of thr
 <tr style="background-color:DodgerBlue; color:white">
     <th> Network Devices </th>
 </tr> 
-<tr>
+<tr style="text-align:left; vertical-align=bottom">
     <td>
         This group consists of Wireless Access Point (WAP), Firewalls, and VPN. Employees located onsite can connect to corporate LAN using the WAP to access the resources on the network. Connections over the WAP are encrypted using WAP2-AES Enterprise AES block cipher, CCMP mode with a key length of 128-bit and HMAC-SHA256. The WAP uses Kerberos protocols to authenticate users.
 
@@ -72,7 +71,7 @@ Cryptographic mechanisms enforce confidentiality policies in the presence of thr
     <th> Key Distribution Protocols </th>
     <th> Public Key Infrastructure </th>
 </tr> 
-<tr>
+<tr style="text-align:left; vertical-align=bottom">
     <td>
         The Palo Alto Networks VPN device uses the IPSec protocol to securely connect remote workers to the corporate network using AES-128-CBC algorithm for encryption, HMAC-SHA-256 for message authentication and ECDHE for the key distribution protocol (“PAN-OS 8.0 IPSec Cipher Suites”, 2019). Access to the Firewall is limited to a few network administrators. The firewall is a critical part of the network, so access to the administration portal is secured with a strong password in accordance with the password policy defined in the security policy.
     </td>

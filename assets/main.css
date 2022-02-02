@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:wght@400;700;800&display=swap");
+/* 2022-02-01: NN  */
 
 * {
   -webkit-box-sizing: border-box;
@@ -590,3 +591,6 @@ footer ul {
 .dropdown:hover .dropdown-content {
   display: block;
 } 
+
+/* Custom NN added */
+
